@@ -130,7 +130,38 @@
               </span>
             </div>
             <div class="markdown" v-html="product.description" />
-     
+     <span v-html="rawHtml"><link rel="stylesheet" href="https://font-sampler.vercel.app/dist/fontsampler-skin.css"><div id="Milago-Sampler" class="Milago">Start Typing Here ...</div></span>
+<script>
+export default {
+  head () {
+    return {
+      script: [
+        { hid: 'loader', src: '<https://font-sampler.vercel.app/dist/loader.js>', defer: true }
+      ]
+    }
+  }
+}
+</script><script>
+export default {
+  head () {
+    return {
+      script: [
+        { hid: 'fontsampler-skin', src: '<https://font-sampler.vercel.app/dist/fontsampler-skin.js>', defer: true }
+      ]
+    }
+  }
+}
+</script><script>
+export default {
+  head () {
+    return {
+      script: [
+        { hid: 'fontsampler', src: '<https://font-sampler.vercel.app/dist/fontsampler.js>', defer: true }
+      ]
+    }
+  }
+}
+</script>
             <!-- Bundle items -->
             <template v-if="bundleItems">
               <div
