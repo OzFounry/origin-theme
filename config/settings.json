@@ -28,7 +28,7 @@
     "promo_text": "",
     "promo_url": "",
     "hide_on_scroll": true,
-    "favicon": "",
+    "favicon": "../static/icon.png",
     "locale": {
       "display": "flag",
       "hide_flag": false
