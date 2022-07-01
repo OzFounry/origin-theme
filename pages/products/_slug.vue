@@ -130,7 +130,7 @@
               </span>
             </div>
             <div class="markdown" v-html="product.description" />
-     <span v-html="rawHtml"><link rel="stylesheet" href="https://font-sampler.vercel.app/dist/fontsampler-skin.css"><div id="Milago-Sampler" class="Milago">Start Typing Here ...</div></span>
+     <link rel="stylesheet" href="https://font-sampler.vercel.app/dist/fontsampler-skin.css"><div id="Milago-Sampler" class="Milago">Start Typing Here ...</div>
 <script>
 export default {
   head () {
