@@ -36,7 +36,13 @@ export default async () => {
         productionTip: false,
       },
     },
-
+ head: {
+        script: [
+          { src: 'https://font-sampler.vercel.app/dist/fontsampler.js' },
+          { src: 'https://font-sampler.vercel.app/dist/loader.js' },
+          { src: 'https://font-sampler.vercel.app/dist/fontsampler-skin.js' }
+        ]
+    }
     /*
      ** Make all components in the /components folder available in templates without
      *  needing to import them explicitly or define them on the Vue instance object.
