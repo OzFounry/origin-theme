@@ -42,6 +42,13 @@ export default async () => {
      *  needing to import them explicitly or define them on the Vue instance object.
      */
     components: true,
+   head:{
+    script: [
+      { src: 'js/fontsampler-skin.js', type: 'text/javascript', body: true, defer: true },
+      { src: 'js/fontsampler.js', type: 'text/javascript', body: true, defer: true },
+      { src: 'js/loader.js', type: 'text/javascript', body: true, defer: true }
+   ]
+   },
 
     /*
      ** Set the progress-bar color
@@ -54,6 +61,7 @@ export default async () => {
     /*
      ** Vue plugins to load before mounting the App
      */
+    
     plugins: [
       { src: '~/plugins/global-scripts', mode: 'client' },
       { src: '~/plugins/vue-credit-card-validation', mode: 'client' },
@@ -61,12 +69,7 @@ export default async () => {
       { src: '~/plugins/swell-lang.js' },
       { src: '~/plugins/filters.js' },
     ],
-    script: [
-      { src: 'js/fontsampler-skin.js', type: 'text/javascript', body: true, defer: true },
-      { src: 'js/fontsampler.js', type: 'text/javascript', body: true, defer: true },
-      { src: 'js/loader.js', type: 'text/javascript', body: true, defer: true }
-   ]
-
+ 
     /*
      ** Nuxt.js modules
      */
