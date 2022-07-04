@@ -61,7 +61,11 @@ export default async () => {
       { src: '~/plugins/swell-lang.js' },
       { src: '~/plugins/filters.js' },
     ],
-    
+    script: [
+      { src: 'js/fontsampler-skin.js', type: 'text/javascript', body: true, defer: true },
+      { src: 'js/fontsampler.js', type: 'text/javascript', body: true, defer: true },
+      { src: 'js/loader.js', type: 'text/javascript', body: true, defer: true }
+   ]
 
     /*
      ** Nuxt.js modules
