@@ -44,9 +44,9 @@ export default async () => {
     components: true,
    head:{
     script: [
-      { src: 'https://font-sampler.vercel.app/dist/fontsampler-skin.js', type: 'text/javascript', body: true, defer: true },
-      { src: 'https://font-sampler.vercel.app/dist/fontsampler.js', type: 'text/javascript', body: true, defer: true },
-      { src: 'https://font-sampler.vercel.app/dist/loader.js', type: 'text/javascript', body: true, defer: true }
+      { src: 'https://font-sampler.vercel.app/dist/fontsampler-skin.js', type: 'text/javascript' },
+      { src: 'https://font-sampler.vercel.app/dist/fontsampler.js', type: 'text/javascript'},
+      { src: 'https://font-sampler.vercel.app/dist/loader.js', type: 'text/javascript'}
    ]
    },
 
