@@ -60,10 +60,6 @@ export default async () => {
       { src: '~/plugins/directives', mode: 'client' },
       { src: '~/plugins/swell-lang.js' },
       { src: '~/plugins/filters.js' },
-      { src: '~/plugins/fontsampler.js' }, 
-      { src: '~/plugins/fontsampler-skin.js' }, 
-      { src: '~/plugins/loader.js' },
-
     ],
 
     /*
