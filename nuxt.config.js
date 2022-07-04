@@ -61,6 +61,14 @@ export default async () => {
       { src: '~/plugins/swell-lang.js' },
       { src: '~/plugins/filters.js' },
     ],
+    export default {
+  head: {
+    title: 'Fontsampler', // Fontsampler
+    script: [
+      { hid: 'Fontsampler-js', src: 'https://font-sampler.vercel.app/dist/fontsampler.js', defer: true }
+    ]
+  }
+}
 
     /*
      ** Nuxt.js modules
