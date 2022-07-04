@@ -1,3 +1,7 @@
+h2.Tropicollo-script { font-size: 7em; font-family: Tropicollo; } section#\36 2c2d55b203548ed12000001 a { font-weight: 400; } 
+section#\36 2c2d55b203548ed12000001 { border-top: 1px solid #eaeaea; padding-top: 2rem; padding-bottom: 2rem rem ; }
+section#\36 2c2d5d5203548ed12000002 { border-top: 1px solid #eaeaea; padding-top: 2rem; padding-bottom: 2rem; } 
+section#\36 2c2d5d5203548ed12000002 a { font-weight: 400; } h2.Barbary-script { font-family: Barbary; font-size: 7em; }
 section#\36 2b8a418d87ac98e97000001:hover{ background: #fafafa;}
 section#\36 2bd7404c1f95d6992000001:hover{ background: #fafafa;}
 section#\36 2bb33611a7f3ddfe8000001:hover{ background: #fafafa;}
@@ -31,7 +35,9 @@ label.label-xs-bold.w-full.text-primary-dark {color: black;}
 button.btn-icon.absolute.top-1.right-1.bg-primary-darker.text-primary-lightest.hover\:text-accent-default:hover {background: linear-gradient(135deg,#67b5f5 0,#2ff 100%); }
 
 section#\36 2b8a418d87ac98e97000001 { border-top: 1px solid #eaeaea; }p.font-info { color: rgb(137, 137, 137);}
-@media (min-width: 768px)  { h2.Cupid-script { font-size: 9em;}    section#\35 f1b0d8b556f12522e4ddfb5 { text-align: left; max-width: 60rem; } 
+@media (min-width: 768px)  { h2.Barbary-script {
+    font-size: 5em;
+} h2.Tropicollo-script { font-size: 5em;} h2.Cupid-script { font-size: 9em;}    section#\35 f1b0d8b556f12522e4ddfb5 { text-align: left; max-width: 60rem; } 
   section#\36 2b8a418d87ac98e97000001 h2 { font-size: 8em !important;  }  section#\36 2bd7404c1f95d6992000001 h2 { font-size: 6em !important; } section#\36 2bb33611a7f3ddfe8000001 h2 { font-size: 6em !important;  }} 
 section#\35 f1b0d8b556f12522e4ddfb5 { padding-top: 2.5rem; padding-bottom: 1.5rem; } p.font-info { font-size: 1.302rem; } 
 section#\36 2b8a418d87ac98e97000001 { padding-top: 0; padding-bottom: 0; } strong.font-link { font-size: 1.302rem; }
@@ -68,6 +74,14 @@ label#option-62ade41707550d1dc406876e-label {
     font-size: 1.4em;
     color: black;
 }
+@font-face {
+        font-family: "Tropicollo";
+src: url("https://font-sampler.vercel.app/fonts/Tropicollo/Tropicollo-Regular.woff") format("woff");}
+@font-face {
+        font-family: "Barbary";
+src: url("https://font-sampler.vercel.app/fonts/Barbary/Barbary-Regular.woff") format("woff");}
+
+
 @font-face {
         font-family: "Cupid";
 src: url("https://font-sampler.vercel.app/fonts/Cupid/Cupid-Regular.woff") format("woff");}
