@@ -130,7 +130,36 @@
               </span>
             </div>
             <div class="markdown" v-html="product.description" />
-    
+    <script>
+    export default {
+      mounted() {
+        var myLandbot = new LandbotFrameWidget({
+          container: "#Milago-Sampler",
+          index: "https://font-sampler.vercel.app/dist/fontsampler.js"
+        });
+      }
+    };
+    </script>
+    <script>
+    export default {
+      mounted() {
+        var myLandbot = new LandbotFrameWidget({
+          container: "#Milago-Sampler",
+          index: "https://font-sampler.vercel.app/dist/fontsampler-skin.js"
+        });
+      }
+    };
+    </script>
+    <script>
+    export default {
+      mounted() {
+        var myLandbot = new LandbotFrameWidget({
+          container: "#Milago-Sampler",
+          index: "https://font-sampler.vercel.app/dist/loader.js"
+        });
+      }
+    };
+    </script>
             <!-- Bundle items -->
             <template v-if="bundleItems">
               <div
