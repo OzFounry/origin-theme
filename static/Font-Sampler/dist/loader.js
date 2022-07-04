@@ -2,73 +2,73 @@ window.onload = function() {
     var fonts = [
     {
             "name": "Milago Thin", 
-            "files": ["./fonts/Milago/Milago-Thin.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-Thin.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
     {
             "name": "Milago Thin Display", 
-            "files": ["./fonts/Milago/Milago-ThinRound.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-ThinRound.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
     {
             "name": "Milago Light", 
-            "files": ["./fonts/Milago/Milago-Light.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-Light.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         {
             "name": "Milago Light Display", 
-            "files": ["./fonts/Milago/Milago-LightRound.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-LightRound.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         {
             "name": "Milago Regular", 
-            "files": ["./fonts/Milago/Milago-Regular.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-Regular.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         {
             "name": "Milago Regular Display", 
-            "files": ["./fonts/Milago/Milago-Round.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-Round.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         {
             "name": "Milago Medium", 
-            "files": ["./fonts/Milago/Milago-Medium.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-Medium.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         {
             "name": "Milago Medium Display", 
-            "files": ["./fonts/Milago/Milago-MediumRound.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-MediumRound.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         {
             "name": "Milago Bold", 
-            "files": ["./fonts/Milago/Milago-Bold.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-Bold.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         {
             "name": "Milago Bold Display", 
-            "files": ["./fonts/Milago/Milago-BoldRound.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-BoldRound.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         {
             "name": "Milago Black", 
-            "files": ["./fonts/Milago/Milago-Black.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-Black.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }, 
         { 
             "name": "Milago Black Display", 
-            "files": ["./fonts/Milago/Milago-BlackRound.woff"],
+            "files": ["https://www.oztype.com/Font-Sampler/fonts/Milago/Milago-BlackRound.woff"],
             "features": ["case", "ccmp", "liga", "dlig", "frac", "hist", "kern", "liga", "lnum", "locl", "onum", "ordn", "salt", "sinf", "subs", "sups", "ss01", "ss02", "ss03", "ss04"],
             "language": "en-gb"
         }
