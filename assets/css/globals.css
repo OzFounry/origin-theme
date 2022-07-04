@@ -1,4 +1,4 @@
- @media (min-width: 1144){.md\:flex.relative.md\:w-1\/2 { width: 0%; display: none; }
+ @media (min-width: 1144px){.md\:flex.relative.md\:w-1\/2 { width: 0%; display: none; }
     .md\:w-1\/2.lg\:px-6.xl\:px-12 { width: 100%; }
      .container.top-0.max-w-160.pt-10.transition-all.duration-300.ease-in-out.md\:sticky.md\:pt-12.top-20 { 
          max-width: 90vw; } 
