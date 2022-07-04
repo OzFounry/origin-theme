@@ -44,9 +44,9 @@ export default async () => {
     components: true,
    head:{
     script: [
-      { src: 'https://kaleidoscopic-cucurucho-2e4492.netlify.app/dist/fontsampler-skin.js', type: 'text/javascript' },
-      { src: 'https://kaleidoscopic-cucurucho-2e4492.netlify.app/dist/fontsampler.js', type: 'text/javascript'},
-      { src: 'https://kaleidoscopic-cucurucho-2e4492.netlify.app/dist/loader.js', type: 'text/javascript'}
+      { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler-skin.js', type: 'text/javascript' },
+      { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler.js', type: 'text/javascript'},
+      { src: 'https://www.oztype.com/Font-Sampler/dist/loader.js', type: 'text/javascript'}
    ]
    },
 
