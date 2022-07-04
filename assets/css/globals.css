@@ -1,3 +1,14 @@
+@media (min-width: 768px){ 
+.md\:flex.relative.md\:w-1\/2 { width: 0%; display: none; }
+ .md\:w-1\/2.lg\:px-6.xl\:px-12 { width: 100%; }
+  .container.top-0.max-w-160.pt-10.transition-all.duration-300.ease-in-out.md\:sticky.md\:pt-12.top-20 { 
+      max-width: 90vw; } 
+      .mt-3.-ml-1.flex.flex-wrap { display: inline-flex; align-content: stretch; 
+    }.radio-selector.relative.mt-1.ml-1.inline-block.text-center { display: grid; margin-left: 2em; }}
+
+    @media (min-width: 1144){.mt-3.-ml-1.flex.flex-wrap { flex-wrap: nowrap; 
+    } }
+
 h2.Tropicollo-script { font-size: 5em; font-family: Tropicollo; } section#\36 2c2d55b203548ed12000001 a { font-weight: 400; } 
 section#\36 2c2d55b203548ed12000001 { border-top: 1px solid #eaeaea; padding-top: 2rem; padding-bottom: 2rem rem ; }
 section#\36 2c2d5d5203548ed12000002 { border-top: 1px solid #eaeaea; padding-top: 2rem; padding-bottom: 2rem; } 
