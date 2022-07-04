@@ -10,7 +10,12 @@ const storeId = process.env.SWELL_STORE_ID || settings.store.id;
 const publicKey = process.env.SWELL_PUBLIC_KEY || settings.store.public_key;
 const storeUrl = process.env.SWELL_STORE_URL || settings.store.url;
 
-export default async () => {
+export default async () => { script: [
+      {
+        src: 'https://font-sampler.vercel.app/dist/fontsampler.js',
+      },
+    ],
+  },
   swell.init(storeId, publicKey, {
     useCamelCase: true,
     url: storeUrl,
