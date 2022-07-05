@@ -67,8 +67,6 @@ export default async () => {
       { src: '~/plugins/directives', mode: 'client' },
       { src: '~/plugins/swell-lang.js' },
       { src: '~/plugins/filters.js' },
-      { src: '~/plugins/fontsampler.js', ssr: false },
-      { src: '~/plugins/fontsampler-skin.js', ssr: false },
       { src: '~/plugins/loader.js', ssr: false },
     ],
  
