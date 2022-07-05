@@ -1,5 +1,5 @@
 ul.glide__slides {
-    animation: animatedImage 5s linear infinite;
+    animation: animatedImage 20s linear infinite;
 }
 @keyframes animatedImage {
     0% { left: 2000px;}
