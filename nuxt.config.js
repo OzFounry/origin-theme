@@ -52,14 +52,7 @@ export default async () => {
 
     
             
-    var fs = new Fontsampler(document.getElementById("Milago-Sampler"), fonts, options)
-    FontsamplerSkin(fs)
-    fs.init()
-}`,
-            type: 'text/javascript',
-            charset: 'utf-8',
-          },
-        ],
+ 
         __dangerouslyDisableSanitizers: ['script', 'innerHTML'],
     /*
      ** Set the progress-bar color
