@@ -1,10 +1,4 @@
-ul.glide__slides {
-    animation: animatedImage 40s linear infinite;
-}
-@keyframes animatedImage {
-    0% { left: 2000px;}
-   100% { left: -2000px;}
-}
+
 .md\:w-1\/2.lg\:px-6.xl\:px-12 { width: 100%; }
 ul.absolute.bottom-4.flex.w-full.flex-row.justify-center { background: #000000; }
 .relative.bg-primary-light.h-0.pb-full.md\:hidden { display: block; }
