@@ -43,11 +43,6 @@ export default async () => {
      */
     components: true,
   
-
-    
-    head:{ script: [ { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler.js', type: 'text/javascript', body: true, defer: true,  ssr: false }, 
-                    { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler-skin.js', type: 'text/javascript', body: true, defer: true,  ssr: false}, 
-                    { src: 'https://www.oztype.com/Font-Sampler/dist/loader.js', type: 'text/javascript', body: true, defer: true,  ssr: false} ] },
             
  
         __dangerouslyDisableSanitizers: ['script', 'innerHTML'],
