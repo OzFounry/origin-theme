@@ -16,7 +16,7 @@
     word-wrap: break-word;
     overflow: hidden;
     max-height: 7em;
-    touch-action: none;
+    touch-action: pan-y pan-down;
 }
 .fsjs-skin.fsjs-initialized {
   opacity: 1;
