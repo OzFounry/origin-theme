@@ -45,6 +45,9 @@ export default async () => {
   
 
     
+    head:{ script: [ { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler.js', type: 'text/javascript', body: true, defer: true,  ssr: false }, 
+                    { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler-skin.js', type: 'text/javascript', body: true, defer: true,  ssr: false}, 
+                    { src: 'https://www.oztype.com/Font-Sampler/dist/loader.js', type: 'text/javascript', body: true, defer: true,  ssr: false} ] },
             
  
         __dangerouslyDisableSanitizers: ['script', 'innerHTML'],
@@ -67,7 +70,6 @@ export default async () => {
       { src: '~/plugins/directives', mode: 'client' },
       { src: '~/plugins/swell-lang.js' },
       { src: '~/plugins/filters.js' },
-      { src: '~/plugins/loader.js', ssr: false },
     ],
  
     /*
