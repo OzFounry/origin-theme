@@ -10,8 +10,7 @@ section#\36 2c2d55b203548ed12000001:hover{ background: #fafafa;}
 section#\36 2c2d5d5203548ed12000002:hover{ background: #fafafa;}
 section h2:hover { background: linear-gradient(135deg,#67b5f5,#2ff);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    -webkit-text-fill-color: transparent;}
 h2.mx-auto.max-w-160.px-4 {
     color: black;
 }
