@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf8"><meta name="viewport" content="user-scalable=0" />
+
+    <!-- Just some styling for this documentaiton page -->
+    
+
+    <!-- Fontsampler -->
+    <script src="./dist/fontsampler.js"></script>
+    <script src="./dist/fontsampler-skin.js"></script>
+
+    <link rel="stylesheet" href="./dist/fontsampler-skin.css">
+    <!-- /Fontsampler -->
+</head>
+
+<body>
+    <header>
+     
+    </header>
+
+    <style type="text/css">
+    @font-face {
+        font-family: "WorkSansRomanVF";
+        src: url("./fonts/work-sans/WorkSans-Roman-VF.woff2") format("woff2");
+    }
+    body {
+        font-family: "WorkSansRomanVF";
+    }
+
+    #Garnison-Italic {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+    </style>
+
+    
+    
+    <div id="Garnison-Italic" class="Garnison">Garnison Italic</div>
+    
+    <footer>
+      
+    </footer>
+
+    <script>
+        window.onload = function() {
+            var fonts = [
+            {
+                    "name": "Garnison Hairline Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-HairlineItalicExpanded.woff"],
+                    "features": ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }, 
+            {
+                    "name": "Garnison Thin Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-ThinItalicExpanded.woff"],
+                    "features": ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }, 
+            {
+                    "name": "Garnison Extra Light Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-ExtraLightItalicExpanded.woff"],
+                    "features": ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }, 
+                {
+                    "name": "Garnison Light Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-LightItalicExpanded.woff"],
+                    "features": ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }, 
+                {
+                    "name": "Garnison Regular Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-RegularItalicExpanded.woff"],
+                    "features":  ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }, 
+                {
+                    "name": "Garnison Book Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-BookItalicExpanded.woff"],
+                    "features":  ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }, 
+                {
+                    "name": "Garnison Medium Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-MediumItalicExpanded.woff"],
+                    "features": ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }, 
+                {
+                    "name": "Garnison Bold Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-BoldItalicExpanded.woff"],
+                    "features": ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }, 
+                
+                { 
+                    "name": "Garnison Extra Bold Italic", 
+                    "files": ["./fonts/Garnison/Expanded-Italic/Garnison-ExtraBoldItalicExpanded.woff"],
+                    "features": ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    "language": "en-gb"
+                }
+            ],
+            options = {
+                order: ["tester", ["fontfamily"], ["fontsize"], "opentype"],
+                ui: {
+                    fontfamily: {
+                        // "init": "Work Sans SemiBold"
+                        "init": "Garnison Regular Italic"
+                    },
+                    
+                    
+                    opentype: {
+                        "choices": ["case", "dnom", "cpsp", "ccmp", "liga", "dlig", "frac", "hist", "kern", "locl", "ordn", "salt", "sinf", "subs", "sups", "mark", "mkmk", "numr", "aalt"],
+                    },
+                    
+                        
+                   
+                }
+            }
+                    
+            var fs = new Fontsampler(document.getElementById("Garnison-Italic"), fonts, options)
+            FontsamplerSkin(fs)
+            fs.init()
+        }
+    </script>
+
+</body>
+
+</html>

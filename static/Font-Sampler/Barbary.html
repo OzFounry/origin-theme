@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf8"><meta name="viewport" content="user-scalable=0" />
+
+    <!-- Just some styling for this documentaiton page -->
+    
+
+    <!-- Fontsampler -->
+    <script src="./dist/fontsampler.js"></script>
+    <script src="./dist/fontsampler-skin.js"></script>
+
+    <link rel="stylesheet" href="./dist/fontsampler-skin.css">
+    <!-- /Fontsampler -->
+</head>
+
+<body>
+    <header>
+     
+    </header>
+
+    <style type="text/css">
+    @font-face {
+        font-family: "WorkSansRomanVF";
+        src: url("./fonts/work-sans/WorkSans-Roman-VF.woff2") format("woff2");
+    }
+    body {
+        font-family: "WorkSansRomanVF";
+    }
+
+    #Barbary-Sampler {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+    </style>
+
+    
+    
+    <div id="Barbary-Sampler" class="Barbary">Start Typing Here ...</div>
+    
+    <footer>
+      
+    </footer>
+    
+    <script>
+        window.onload = function() {
+            var fonts = [
+           
+            {
+                
+                    "name": "Barbary Regular", 
+                    "files": ["./fonts/Barbary/Barbary-Regular.woff"],
+                    "features": ["liga","salt", "aalt"],
+                    "language": "en-gb"
+                }
+            ],
+            options = {
+                order: ["tester", ["fontfamily"], ["fontsize"], "opentype"],
+                ui: {
+                    fontfamily: {
+                        // "init": "Work Sans SemiBold"
+                        "init": "Tropicollo Regular"
+                    },
+                    
+                    
+                    opentype: {
+                        "choices": ["liga","salt", "aalt"]
+                    },
+                    
+                        
+                   
+                }
+            }
+                    
+            var fs = new Fontsampler(document.getElementById("Barbary-Sampler"), fonts, options)
+            FontsamplerSkin(fs)
+            fs.init()
+        }
+    </script>
+
+</body>
+
+</html>
