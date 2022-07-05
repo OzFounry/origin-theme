@@ -129,7 +129,7 @@
                 }}
               </span>
             </div>
-            <div class="Milago" id="Milago-Sampler" v-html="product.description">Milago</div>
+            <div class="Milago" id="Milago-Sampler">Milago</div>
             <div class="markdown" v-html="product.description" />
     
             <!-- Bundle items -->
