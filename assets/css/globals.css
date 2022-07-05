@@ -1,4 +1,8 @@
-ul.absolute.bottom-4.flex.w-full.flex-row.justify-center { background: #000000; }.relative.bg-primary-light.h-0.pb-full.md\:hidden { display: block; }.hidden.h-full.md\:block { display: none; }section.mb-12.md\:flex { flex-direction: column; }@media (min-width: 768px){.relative.md\:w-1\/2 { width: 100%; }}
+.md\:w-1\/2.lg\:px-6.xl\:px-12 { width: 100%; }
+ul.absolute.bottom-4.flex.w-full.flex-row.justify-center { background: #000000; }
+.relative.bg-primary-light.h-0.pb-full.md\:hidden { display: block; }
+.hidden.h-full.md\:block { display: none; }section.mb-12.md\:flex { flex-direction: column; }
+@media (min-width: 768px){.relative.md\:w-1\/2 { width: 100%; }  .container.top-0.max-w-160.pt-10.transition-all.duration-300.ease-in-out.md\:sticky.md\:pt-12.top-20 { max-width: 70%; }}
 h2.Tropicollo-script { font-size: 5em; font-family: Tropicollo; } section#\36 2c2d55b203548ed12000001 a { font-weight: 400;} 
 section#\36 2c2d55b203548ed12000001 { border-top: 1px solid #eaeaea; padding-top: 2rem; padding-bottom: 2rem rem ; }
 section#\36 2c2d5d5203548ed12000002 { border-top: 1px solid #eaeaea; padding-top: 2rem; padding-bottom: 2rem; } 
