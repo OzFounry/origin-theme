@@ -259,9 +259,9 @@ module.exports = {
 
 },{}],6:[function(_dereq_,module,exports){
 var FontFaceObserver = _dereq_("../node_modules/fontfaceobserver/fontfaceobserver.standalone")
-var errors = _dereq_("./constants/errors")
-var supports = _dereq_("./helpers/supports")
-var helpers = _dereq_("./helpers/helpers")
+var errors = _dereq_("https://www.oztype.com/Font-Sampler/src/constants/errors")
+var supports = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/supports")
+var helpers = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/helpers")
 
 
 /**
@@ -411,7 +411,7 @@ module.exports = {
     "loadFont": loadFont,
     "fromFiles": fromFiles,
 }
-},{"../node_modules/fontfaceobserver/fontfaceobserver.standalone":2,"./constants/errors":4,"./helpers/helpers":9,"./helpers/supports":11}],7:[function(_dereq_,module,exports){
+},{"../node_modules/fontfaceobserver/fontfaceobserver.standalone":2,"https://www.oztype.com/Font-Sampler/src/constants/errors":4,"https://www.oztype.com/Font-Sampler/src/helpers/helpers":9,"https://www.oztype.com/Font-Sampler/src/helpers/supports":11}],7:[function(_dereq_,module,exports){
 /**
  * Fontsampler.js
  * 
@@ -423,18 +423,18 @@ module.exports = {
  */
 var extend = _dereq_("../node_modules/extend")
 
-var Fontloader = _dereq_("./fontloader")
-var Interface = _dereq_("./ui")
-var Preloader = _dereq_("./preloader")
+var Fontloader = _dereq_("https://www.oztype.com/Font-Sampler/src/fontloader")
+var Interface = _dereq_("https://www.oztype.com/Font-Sampler/src/ui")
+var Preloader = _dereq_("https://www.oztype.com/Font-Sampler/src/preloader")
 
-var errors = _dereq_("./constants/errors")
-var events = _dereq_("./constants/events")
-var _defaults = _dereq_("./constants/defaults")
+var errors = _dereq_("https://www.oztype.com/Font-Sampler/src/constants/errors")
+var events = _dereq_("https://www.oztype.com/Font-Sampler/src/constants/events")
+var _defaults = _dereq_("https://www.oztype.com/Font-Sampler/src/constants/defaults")
 
-var helpers = _dereq_("./helpers/helpers")
-var utils = _dereq_("./helpers/utils")
-var dom = _dereq_("./helpers/dom")
-var supports = _dereq_("./helpers/supports")
+var helpers = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/helpers")
+var utils = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/utils")
+var dom = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/dom")
+var supports = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/supports")
 
 
 /**
@@ -836,7 +836,7 @@ function Fontsampler(_root, _fonts, _options) {
 }
 
 module.exports = Fontsampler
-},{"../node_modules/extend":1,"./constants/defaults":3,"./constants/errors":4,"./constants/events":5,"./fontloader":6,"./helpers/dom":8,"./helpers/helpers":9,"./helpers/supports":11,"./helpers/utils":12,"./preloader":13,"./ui":14}],8:[function(_dereq_,module,exports){
+},{"../node_modules/extend":1,"https://www.oztype.com/Font-Sampler/src/constants/defaults":3,"https://www.oztype.com/Font-Sampler/src/constants/errors":4,"https://www.oztype.com/Font-Sampler/src/constants/events":5,"https://www.oztype.com/Font-Sampler/src/fontloader":6,"https://www.oztype.com/Font-Sampler/src/helpers/dom":8,"https://www.oztype.com/Font-Sampler/src/helpers/helpers":9,"https://www.oztype.com/Font-Sampler/src/helpers/supports":11,"https://www.oztype.com/Font-Sampler/src/helpers/utils":12,"https://www.oztype.com/Font-Sampler/src/preloader":13,"https://www.oztype.com/Font-Sampler/src/ui":14}],8:[function(_dereq_,module,exports){
 /**
  * DOM related helpers
  */
@@ -1126,7 +1126,7 @@ module.exports = {
     extractFontsFromDOM: extractFontsFromDOM,
     bestWoff: bestWoff,
 }
-},{"./supports":11}],10:[function(_dereq_,module,exports){
+},{"https://www.oztype.com/Font-Sampler/src/helpers/supports":11}],10:[function(_dereq_,module,exports){
 /**
  * Helper module to deal with caret position
  */
@@ -1312,7 +1312,7 @@ module.exports = {
     clamp: clamp
 }
 },{}],13:[function(_dereq_,module,exports){
-var Fontloader = _dereq_("./fontloader")
+var Fontloader = _dereq_("https://www.oztype.com/Font-Sampler/src/fontloader")
 
 function Preloader() {
 
@@ -1374,7 +1374,7 @@ function Preloader() {
 
 
 module.exports = Preloader
-},{"./fontloader":6}],14:[function(_dereq_,module,exports){
+},{"https://www.oztype.com/Font-Sampler/src/fontloader":6}],14:[function(_dereq_,module,exports){
 /**
  * A wrapper around the Fontsampler interface
  * 
@@ -1403,17 +1403,17 @@ module.exports = Preloader
  * and `element` for the actual UI element that has a value, e.g. the HTML input
  * or select etc.
  */
-var selection = _dereq_("./helpers/selection")
+var selection = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/selection")
 
-var UIElements = _dereq_("./uielements")
-var Fontloader = _dereq_("./fontloader")
+var UIElements = _dereq_("https://www.oztype.com/Font-Sampler/src/uielements")
+var Fontloader = _dereq_("https://www.oztype.com/Font-Sampler/src/fontloader")
 
-var errors = _dereq_("./constants/errors")
-var events = _dereq_("./constants/events")
+var errors = _dereq_("https://www.oztype.com/Font-Sampler/src/constants/errors")
+var events = _dereq_("https://www.oztype.com/Font-Sampler/src/constants/events")
 
-var dom = _dereq_("./helpers/dom")
-var utils = _dereq_("./helpers/utils")
-var supports = _dereq_("./helpers/supports")
+var dom = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/dom")
+var utils = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/utils")
+var supports = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/supports")
 
 function UI(root, fonts, options) {
 
@@ -2402,10 +2402,10 @@ function UI(root, fonts, options) {
     }
 }
 module.exports = UI
-},{"./constants/errors":4,"./constants/events":5,"./fontloader":6,"./helpers/dom":8,"./helpers/selection":10,"./helpers/supports":11,"./helpers/utils":12,"./uielements":15}],15:[function(_dereq_,module,exports){
+},{"https://www.oztype.com/Font-Sampler/src/constants/errors":4,"https://www.oztype.com/Font-Sampler/src/constants/events":5,"https://www.oztype.com/Font-Sampler/src/fontloader":6,"https://www.oztype.com/Font-Sampler/src/helpers/dom":8,"https://www.oztype.com/Font-Sampler/src/helpers/selection":10,"https://www.oztype.com/Font-Sampler/src/helpers/supports":11,"https://www.oztype.com/Font-Sampler/src/helpers/utils":12,"https://www.oztype.com/Font-Sampler/src/uielements":15}],15:[function(_dereq_,module,exports){
 
-var helpers = _dereq_("./helpers/helpers")
-var dom = _dereq_("./helpers/dom")
+var helpers = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/helpers")
+var dom = _dereq_("https://www.oztype.com/Font-Sampler/src/helpers/dom")
 
 /**
  * Wrapper to provide global root, options and fonts to all methods (UI Elements)
@@ -2653,5 +2653,5 @@ function UIElements(root, options) {
 }
 
 module.exports = UIElements
-},{"./helpers/dom":8,"./helpers/helpers":9}]},{},[7])(7)
+},{"https://www.oztype.com/Font-Sampler/src/helpers/dom":8,"https://www.oztype.com/Font-Sampler/src/helpers/helpers":9}]},{},[7])(7)
 });
