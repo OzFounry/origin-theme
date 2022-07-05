@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf8"><meta name="viewport" content="user-scalable=0" />
+
+    <!-- Just some styling for this documentaiton page -->
+    
+
+    <!-- Fontsampler -->
+    <script src="./dist/fontsampler.js"></script>
+    <script src="./dist/fontsampler-skin.js"></script>
+
+    <link rel="stylesheet" href="./dist/fontsampler-skin.css">
+    <!-- /Fontsampler -->
+</head>
+
+<body>
+    <header>
+     
+    </header>
+
+    <style type="text/css">
+    @font-face {
+        font-family: "WorkSansRomanVF";
+        src: url("./fonts/work-sans/WorkSans-Roman-VF.woff2") format("woff2");
+    }
+    body {
+        font-family: "WorkSansRomanVF";
+    }
+
+    #Milago-Sampler {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+    </style>
+
+<div data-fsjs="tester">Type here to test</div>
+…
+For fontsize, linheight, letterspacing:
+<label for="fontsize">…<span class="fontsampler-label-value">12</span>px</label>
+<input data-fsjs="fontsize" min="8" max="96" step="1" data-init="14" data-unit="px">
+…
+For the fontfamily dropdown
+<select data-fsjs="fontfamily">
+    <option value="My font name" data-fontname="My font name"
+        data-woff="path/to/font-file.woff" 
+        data-woff2="path/to/font-file.woff2">My font name</option>
+    …
+</select>
+    
+    <div id="Milago-Sampler" class="Milago">Start Typing Here ...</div>
+    
+    <footer>
+      
+    </footer>
+    
+    
+
+</body>
+
+</html>

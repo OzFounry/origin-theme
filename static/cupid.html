@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf8"><meta name="viewport" content="user-scalable=0" />
+
+    <!-- Just some styling for this documentaiton page -->
+    
+
+    <!-- Fontsampler -->
+    <script src="./dist/fontsampler.js"></script>
+    <script src="./dist/fontsampler-skin.js"></script>
+
+    <link rel="stylesheet" href="./dist/fontsampler-skin.css">
+    <!-- /Fontsampler -->
+</head>
+
+<body>
+    <header>
+     
+    </header>
+
+    <style type="text/css">
+    @font-face {
+        font-family: "WorkSansRomanVF";
+        src: url("./fonts/work-sans/WorkSans-Roman-VF.woff2") format("woff2");
+    }
+    body {
+        font-family: "WorkSansRomanVF";
+    }
+
+    #Cupid-Sampler {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+    </style>
+
+    
+    
+    <div id="Cupid-Sampler" class="Cupid">Start Typing Here ...</div>
+    
+    <footer>
+      
+    </footer>
+    
+    <script>
+        window.onload = function() {
+            var fonts = [
+            {
+                
+                    "name": "Cupid Regular", 
+                    "files": ["./fonts/Cupid/Cupid-Regular.woff"],
+                    "features": ["liga","salt", "aalt", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09", "ss10", "ss11", "ss12", "ss13", "ss14", "ss15", "ss16", "ss17", "ss18", "ss19", "ss20"],
+                    "language": "en-gb"
+                }
+            ],
+            options = {
+                order: ["tester", ["fontfamily"], ["fontsize"], "opentype"],
+                ui: {
+                    fontfamily: {
+                        // "init": "Work Sans SemiBold"
+                        "init": "Milago Regular"
+                    },
+                    
+                    
+                    opentype: {
+                        "choices": ["liga","salt", "aalt", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09", "ss10", "ss11", "ss12", "ss13", "ss14", "ss15", "ss16", "ss17", "ss18", "ss19", "ss20"]
+                    },
+                    
+                        
+                   
+                }
+            }
+                    
+            var fs = new Fontsampler(document.getElementById("Cupid-Sampler"), fonts, options)
+            FontsamplerSkin(fs)
+            fs.init()
+        }
+    </script>
+
+</body>
+
+</html>
