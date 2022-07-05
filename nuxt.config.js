@@ -42,13 +42,7 @@ export default async () => {
      *  needing to import them explicitly or define them on the Vue instance object.
      */
     components: true,
-   head:{
-    script: [
-      { src: 'https://www.oztype.com/Font-Sampler/dist/obsk.js', type: 'text/javascript', body: true, defer: true, mode: 'client' },
-      { src: 'https://www.oztype.com/Font-Sampler/dist/obfp.js', type: 'text/javascript', body: true, defer: true, mode: 'client'},
-      { src: 'https://www.oztype.com/Font-Sampler/dist/oblo.js', type: 'text/javascript', body: true, defer: true, mode: 'client'}
-   ]
-   },
+  
 
     
             
@@ -73,6 +67,9 @@ export default async () => {
       { src: '~/plugins/directives', mode: 'client' },
       { src: '~/plugins/swell-lang.js' },
       { src: '~/plugins/filters.js' },
+      { src: '~/plugins/fontsampler.js', ssr: false },
+      { src: '~/plugins/fontsampler-skin.js', ssr: false },
+      { src: '~/plugins/loader.js', ssr: false },
     ],
  
     /*
