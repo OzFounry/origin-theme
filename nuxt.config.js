@@ -44,9 +44,9 @@ export default async () => {
     components: true,
    head:{
     script: [
-      { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler-skin.js', type: 'text/javascript', body: true, defer: true },
-      { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler.js', type: 'text/javascript', body: true, defer: true},
-      { src: 'https://www.oztype.com/Font-Sampler/dist/loader.js', type: 'text/javascript', body: true, defer: true}
+      { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler-skin.js', type: 'text/javascript', body: true, defer: true, mode: 'client' },
+      { src: 'https://www.oztype.com/Font-Sampler/dist/fontsampler.js', type: 'text/javascript', body: true, defer: true, mode: 'client'},
+      { src: 'https://www.oztype.com/Font-Sampler/dist/loader.js', type: 'text/javascript', body: true, defer: true, mode: 'client'}
    ]
    },
 
@@ -73,9 +73,6 @@ export default async () => {
       { src: '~/plugins/directives', mode: 'client' },
       { src: '~/plugins/swell-lang.js' },
       { src: '~/plugins/filters.js' },
-      { src: '~/static/Font-Sampler/dist/fontsampler-skin.js' },
-      { src: '~/static/Font-Sampler/dist/fontsampler.js' },
-      { src: '~/static/Font-Sampler/dist/loader.js' },
     ],
  
     /*
