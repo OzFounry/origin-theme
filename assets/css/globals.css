@@ -11,7 +11,7 @@ ul.absolute.bottom-4.flex.w-full.flex-row.justify-center { background: #000000; 
 .hidden.h-full.md\:block { display: none; }section.mb-12.md\:flex { flex-direction: column; }
 @media (min-width: 768px){ .radio-selector.relative.mt-1.ml-1.inline-block.text-center { display: flex; margin-left: 2em; }
   .mt-3.-ml-1.flex.flex-wrap { display: flex; flex-wrap: nowrap; margin-left: -2em; }.relative.md\:w-1\/2 { width: 100%; }
-  .container.top-0.max-w-160.pt-10.transition-all.duration-300.ease-in-out.md\:sticky.md\:pt-12.top-20 { max-width: 70%; }}
+  .container.top-0.max-w-160.pt-10.transition-all.duration-300.ease-in-out.md\:sticky.md\:pt-12.top-20 { max-width: 90%; }}
 h2.Tropicollo-script { font-size: 5em; font-family: Tropicollo; } section#\36 2c2d55b203548ed12000001 a { font-weight: 400;} 
 section#\36 2c2d55b203548ed12000001 { border-top: 1px solid #eaeaea; padding-top: 2rem; padding-bottom: 2rem rem ; }
 section#\36 2c2d5d5203548ed12000002 { border-top: 1px solid #eaeaea; padding-top: 2rem; padding-bottom: 2rem; } 
