@@ -124,6 +124,113 @@ span.block.min-w-12.p-3 { font-size: 3em; }
     font-size: var(--type-scale--1);}
 
 
+
+[for="62bd66824c6696199a64b570"] :after {
+    content: "Print: 1 User Web: 100.000 Pageviews/month App: 1.000 Downloads eBook: 10.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: .944rem;
+    font-size: var(--type-scale--1);
+}
+
+[for="62c18c6af74dce075f907d5e"] :after {
+    content: "Print: 1 User Web: 100.000 Pageviews/month App: 1.000 Downloads eBook: 10.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: .944rem;
+    font-size: var(--type-scale--1);
+}
+[for="62c2c579a7f4a84a2e90d012"] :after {
+    content: "Print: 1 User Web: 100.000 Pageviews/month App: 1.000 Downloads eBook: 10.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: .944rem;
+    font-size: var(--type-scale--1);
+}
+[for="62c2c99da7f4a84a2e90d023"] :after {
+    content: "Print: 1 User Web: 100.000 Pageviews/month App: 1.000 Downloads eBook: 10.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: .944rem;
+    font-size: var(--type-scale--1);
+}
+
+[for="62bc382ffecfa50262ec12d1"]:after {
+    content: "Print: 5 User Web: 500.000 Pageviews/month App: 5.000 Downloads eBook: 50.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62bd66824c6696199a64b571"]:after {
+    content: "Print: 5 User Web: 500.000 Pageviews/month App: 5.000 Downloads eBook: 50.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62c18c6af74dce075f907d5f"]:after {
+    content: "Print: 5 User Web: 500.000 Pageviews/month App: 5.000 Downloads eBook: 50.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62c2c579a7f4a84a2e90d013"]:after {
+    content: "Print: 5 User Web: 500.000 Pageviews/month App: 5.000 Downloads eBook: 50.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62c2c99da7f4a84a2e90d024"]:after {
+    content: "Print: 5 User Web: 500.000 Pageviews/month App: 5.000 Downloads eBook: 50.000 Downloads";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62bc382ffecfa50262ec12d2"]:after {
+    content: "Print: 15 Users Web: 1,500,000 Pageviews/month App: 15,000 Downloads eBook: 150,000 Downloads Broadcasting: 1,500,000 Viewers";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62bd66824c6696199a64b572"]:after {
+    content: "Print: 15 Users Web: 1,500,000 Pageviews/month App: 15,000 Downloads eBook: 150,000 Downloads Broadcasting: 1,500,000 Viewers";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62c18c6af74dce075f907d60"]:after {
+    content: "Print: 15 Users Web: 1,500,000 Pageviews/month App: 15,000 Downloads eBook: 150,000 Downloads Broadcasting: 1,500,000 Viewers";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62c2c579a7f4a84a2e90d014"]:after {
+    content: "Print: 15 Users Web: 1,500,000 Pageviews/month App: 15,000 Downloads eBook: 150,000 Downloads Broadcasting: 1,500,000 Viewers";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+[for="62c2c99da7f4a84a2e90d025"]:after {
+    content: "Print: 15 Users Web: 1,500,000 Pageviews/month App: 15,000 Downloads eBook: 150,000 Downloads Broadcasting: 1,500,000 Viewers";
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2EM;
+    font-size: var(--type-scale--1);
+}
+
+
 html,
 body {
   @apply bg-primary-lightest;
