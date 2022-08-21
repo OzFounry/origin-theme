@@ -44,7 +44,7 @@ button.btn-icon.absolute.top-1.right-1.bg-primary-darker.text-primary-lightest.h
 
 section#\36 2b8a418d87ac98e97000001 { border-top: 1px solid #eaeaea; }p.font-info { color: rgb(137, 137, 137);}
 @media (min-width: 768px)  { h2.Barbary-script {font-size: 7em;} h2.Tropicollo-script { font-size: 7em;} h2.Cupid-script { font-size: 9em;}    section#\35 f1b0d8b556f12522e4ddfb5 { text-align: left; max-width: 60rem; } 
-  section#\36 2b8a418d87ac98e97000001 h2 { font-size: 8em !important;  }  section#\36 2bd7404c1f95d6992000001 h2 { font-size: 6em !important; } section#\36 2bb33611a7f3ddfe8000001 h2 { font-size: 6em !important;  }} 
+  section#\36 2b8a418d87ac98e97000001 h2 { font-size: 8em !important;  } section#\36 3028908810b44cb1e000001 h2 { font-size: 8em !important;} section#\36 2bd7404c1f95d6992000001 h2 { font-size: 6em !important; } section#\36 2bb33611a7f3ddfe8000001 h2 { font-size: 6em !important;  }} 
 section#\35 f1b0d8b556f12522e4ddfb5 { padding-top: 2.5rem; padding-bottom: 1.5rem; } p.font-info { font-size: 1.302rem; } 
 section#\36 2b8a418d87ac98e97000001 { padding-top: 0; padding-bottom: 0; } strong.font-link { font-size: 1.302rem; }
 section#\36 2b8a418d87ac98e97000001 a { font-weight: 400; } 
@@ -56,6 +56,7 @@ section#\36 2b8a418d87ac98e97000001 h2 {font-size: 5em;
 }
 section#\36 3028908810b44cb1e000001 h2 {
     font-family: 'Neue Alter Regular';
+    font-size: 5em;
 }
 label.relative.block.w-full.cursor-pointer.rounded.border.border-primary-med.text-sm.font-semibold.hover\:border-primary-darkest.focus\:shadow-outline.border-primary-darkest { background-color: black; color: white; }.radio-selector.relative.mt-1.ml-1.inline-block.text-center { width: 100%; }
 button.btn-icon.absolute.top-1.right-1.bg-primary-darker.text-primary-lightest.hover\:text-accent-default {
